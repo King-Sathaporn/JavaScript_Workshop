@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVENUE & EXPENSE ACCOUNTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>REVENUE & EXPENSE ACCOUNTS</h2>
+    <div class="container">
+        <h4>BALANCE (THB)</h4>
+        <h1 id="balance">฿ 0.00</h1>
+        <div class="revenue-expense-container">
+            <div class="revenue">
+                <h4>REVENUE</h4>
+                <p class="money plus" id="money-plus">
+                </p>
+            </div>
+            <div class="expense">
+                <h4>EXPENSE</h4>
+                <p class="money minus" id="money-minus">
+                </p>
+            </div>
+        </div> 
+        <h3>HISTORY</h3>
+        <ul class="list" id="list">
+
+            
+        </ul>
+        <h3>ADD TRANSACTION</h3>        
+        <form action="" id="form">
+            <div class="form-control">
+                <label for="text">TRANSACTION</label>
+                <input type="text" name="" id="text">
+            </div>
+            <div class="form-control">
+                <label for="text">AMOUNT
+                    <br>
+                    (+ for revenue, - for expense)
+                </label>
+                <input type="number" name="" id="amount">
+            </div>
+            <button class="btn">ADD TRANSACTION</button>
+        </form> 
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
